@@ -2,4 +2,6 @@
 
 ## Patterns
 
+1. Strategy Design Pattern
+
  
