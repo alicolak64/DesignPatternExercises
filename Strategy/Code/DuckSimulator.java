@@ -13,6 +13,11 @@ public class DuckSimulator {
         mallard.performQuack();
         mallard.performFly();
 
+        Duck model = new ModelDuck();
+        model.performFly();
+        model.setFlyBehaviour(new FlyRocketPowered());
+        model.performFly();
+
         
 
     }
