@@ -1,5 +1,3 @@
-package DesignPatterns.StrategyDesignPattern.Code.Behaviours.Fly;
-
 public class FlyNoWay implements FlyBehaviour {
 
     @Override

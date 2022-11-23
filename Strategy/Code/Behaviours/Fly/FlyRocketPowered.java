@@ -1,5 +1,3 @@
-package DesignPatterns.StrategyDesignPattern.Code.Behaviours.Fly;
-
 public class FlyRocketPowered implements FlyBehaviour {
 
     @Override

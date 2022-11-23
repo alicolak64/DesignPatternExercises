@@ -1,8 +1,3 @@
-package DesignPatterns.StrategyDesignPattern.Code;
-
-import DesignPatterns.StrategyDesignPattern.Code.Behaviours.Fly.FlyBehaviour;
-import DesignPatterns.StrategyDesignPattern.Code.Behaviours.Quack.QuackBehaviour;
-
 public abstract class Duck {
 
     FlyBehaviour flyBehaviour;
