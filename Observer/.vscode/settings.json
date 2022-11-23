@@ -1,8 +1,13 @@
 {
     "java.project.sourcePaths": [
         "Code/ObserverPattern/Subject",
-        "Code/ObserverPattern/Observers/Display" ,
+        "Code/ObserverPattern/Observers/Display",
         "Code/ObserverPattern/Observers",
-        "Code/ObserverPattern"
+        "Code/ObserverPattern",
+
+
+        "Code/JavaBuiltIn" , 
+        "Code/JavaBuiltIn/Observer" ,
+        "Code/JavaBuiltIn/Observer/Display" ,
     ]
 }
