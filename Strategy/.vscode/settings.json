@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Code/Behaviours/Fly",
+        "Code/Behaviours/Quack",
+        "Code/Behaviours",
+        "Code/Ducks",
+    ]
+}
