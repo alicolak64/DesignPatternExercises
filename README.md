@@ -7,3 +7,4 @@
 3. Decarator Design Pattern
 4. Factory Desing Patterns
     + Simple Factory
+    + Factory Method
