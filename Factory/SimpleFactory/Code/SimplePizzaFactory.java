@@ -1,7 +1,3 @@
-package DesignPatterns.FactoryDesignPattern.SimpleFactory.Code;
-
-import DesignPatterns.FactoryDesignPattern.SimpleFactory.Code.Pizzas.*;
-
 public class SimplePizzaFactory {
 
         public Pizza createPizza(String type) {

@@ -1,5 +1,3 @@
-package DesignPatterns.FactoryDesignPattern.SimpleFactory.Code;
-
 public class PizzaTestDriver {
 
     public static void main(String[] args) {

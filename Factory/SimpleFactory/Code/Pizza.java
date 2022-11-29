@@ -1,5 +1,3 @@
-package DesignPatterns.FactoryDesignPattern.SimpleFactory.Code;
-
 public class Pizza {
 
     private String name;

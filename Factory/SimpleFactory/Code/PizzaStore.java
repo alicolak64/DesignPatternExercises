@@ -1,5 +1,3 @@
-package DesignPatterns.FactoryDesignPattern.SimpleFactory.Code;
-
 public class PizzaStore {
 
         SimplePizzaFactory factory;
