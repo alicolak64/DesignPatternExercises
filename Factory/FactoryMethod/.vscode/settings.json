@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "Code",
+        "Code/PizzaStores",
+        "Code/Pizzas",
+        "Code/Pizzas/ChicagoStyle",
+        "Code/Pizzas/NYStyle"
+    ]
+}
