@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "Code",
+        "Code/ChocolateBuilder",
+        "Code/SynchronizedProblem/DoubleCheckedLocking",
+        "Code/SynchronizedProblem/EagerInstantiation",
+        "Code/SynchronizedProblem/SynchronizedMethod"
+    ]
+}
