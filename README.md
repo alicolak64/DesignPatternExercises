@@ -9,4 +9,5 @@
     + Simple Factory
     + Factory Method
     + Abstract Factory
-5. Singleton Design Pattern    
+5. Singleton Design Pattern   
+6. Command Design Pattern 
