@@ -8,7 +8,7 @@ public class CeilingFanOnCommand implements Command {
 
     @Override
     public void execute() {
-        ceilingFan.low();
+        ceilingFan.on();
     }
 
 }
