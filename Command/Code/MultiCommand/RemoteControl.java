@@ -4,11 +4,11 @@ public class RemoteControl {
     Command [] offCommands;
 
     public RemoteControl() {
-        onCommands = new Command[7];
-        offCommands = new Command[7];
+        onCommands = new Command[9];
+        offCommands = new Command[9];
 
         Command noCommand = new NoCommand();
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < onCommands.length; i++) {
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
@@ -41,6 +41,10 @@ public class RemoteControl {
         }
     }
      */
+
+    public int getCountCommands () {
+        return onCommands.length;
+    }
 
     public String toString() {
         StringBuilder stringBuff = new StringBuilder();
