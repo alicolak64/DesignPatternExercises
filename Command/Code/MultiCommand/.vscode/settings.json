@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+
+        "Code/MultiCommand" ,
+        "Code/MultiCommand/Commands" ,
+        "Code/MultiCommand/Receivers" 
+        
+    ]
+}
