@@ -1,4 +1,5 @@
 public class CeilingFan {
+    
     String location = "";
     int speed;
 
@@ -28,6 +29,17 @@ public class CeilingFan {
 
     public int getSpeed() {
         return speed;
+    }
+
+    public void on() {
+        if (speed == 0)
+            low();
+        else if (speed == 1)
+            medium();
+        else if (speed == 2)
+            high();
+        else if (speed == 3)
+            low();
     }
 
 }
