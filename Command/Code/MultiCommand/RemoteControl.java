@@ -27,6 +27,21 @@ public class RemoteControl {
         offCommands[slot].execute();
     }
 
+    /*
+    public void onButtonWasPushed(int slot) {
+        if (onCommands[slot] != null) {
+            onCommands[slot].execute();
+        }
+    }
+
+
+    public void offButtonWasPushed(int slot) {
+        if (offCommands[slot] != null) {
+            offCommands[slot].execute();
+        }
+    }
+     */
+
     public String toString() {
         StringBuilder stringBuff = new StringBuilder();
         stringBuff.append("\n------ Remote Control -------\n");
