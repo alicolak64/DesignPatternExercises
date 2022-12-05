@@ -35,6 +35,12 @@ public class RemoteLoader {
         StereoOnWithCDCommand kitchenStereoOnWithCD = new StereoOnWithCDCommand(kitchenStereo);
         StereoOffCommand kitchenStereoOff = new StereoOffCommand(kitchenStereo);
 
+        StereoVolumeUpCommand livingRoomStereoVolumeUpCommand = new StereoVolumeUpCommand(livingRoomStereo);
+        StereoVolumeDownCommand livingRoomStereoVolumeDownCommand = new StereoVolumeDownCommand(livingRoomStereo);
+
+        StereoVolumeUpCommand kitchenStereoVolumeUpCommand = new StereoVolumeUpCommand(kitchenStereo);
+        StereoVolumeDownCommand kitchenStereoVolumeDownCommand = new StereoVolumeDownCommand(kitchenStereo);
+
 
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
         remoteControl.setCommand(1, kitchenLightOn, kitchenLightOff);
@@ -43,13 +49,26 @@ public class RemoteLoader {
         remoteControl.setCommand(4, garageDoorUp, garageDoorDown);
         remoteControl.setCommand(5, livingRoomStereoOnWithCD, livingRoomStereoOff);
         remoteControl.setCommand(6, kitchenStereoOnWithCD, kitchenStereoOff);
+        remoteControl.setCommand(7,livingRoomStereoVolumeUpCommand,livingRoomStereoVolumeDownCommand);
+        remoteControl.setCommand(8,kitchenStereoVolumeUpCommand,kitchenStereoVolumeDownCommand);
 
         System.out.println(remoteControl);
 
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < remoteControl.getCountCommands(); i++) {
             remoteControl.onButtonWasPushed(i);
             remoteControl.offButtonWasPushed(i);
         }
+
+        remoteControl.onButtonWasPushed(2);
+        remoteControl.onButtonWasPushed(2);
+        remoteControl.onButtonWasPushed(2);
+        remoteControl.onButtonWasPushed(2);
+
+        for (int i=11; i<=30; i++)
+            remoteControl.onButtonWasPushed(7);
+
+        for (int i=30; i>=0; i--)
+            remoteControl.offButtonWasPushed(7);
 
 
 
