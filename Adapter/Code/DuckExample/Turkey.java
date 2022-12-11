@@ -15,10 +15,6 @@ public abstract class Turkey {
         soundBehaviour.sound();
     }
 
-    public void swim() {
-        System.out.println("All ducks float, even decoys!");
-    }
-
     public abstract void display();
 
     public void setFlyBehaviour(FlyBehaviour fb) {
