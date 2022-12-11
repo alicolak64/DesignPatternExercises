@@ -12,3 +12,4 @@
 5. Singleton Design Pattern   
 6. Command Design Pattern 
 7. Adapter Design Pattern
+8. Facade Design Pattern
