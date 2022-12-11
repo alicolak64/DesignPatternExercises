@@ -66,12 +66,25 @@ public class DuckSimulator {
         simulateDuck(turkeyAdapter3);
 
 
+        Turkey duckAdapter1 = new DuckAdapter(mallardDuck);
+        System.out.println("Mallard duck adapter:");
+        simulateTurkey(duckAdapter1);
+
+        Turkey duckAdapter2 = new DuckAdapter(modelDuck);
+        System.out.println("Model duck adapter:");
+        simulateTurkey(duckAdapter2);
+
 
     }
 
     public static void simulateDuck(Duck duck) {
         duck.performSound();
         duck.performFly();
+    }
+
+    public static void simulateTurkey(Turkey turkey) {
+        turkey.performSound();
+        turkey.performFly();
     }
 
 }
