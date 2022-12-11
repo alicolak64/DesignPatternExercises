@@ -29,7 +29,7 @@ Use the Adapter pattern when you want to
 * **Adapter** adapts the interface of Adaptee to the Target interface
 * **Object Adapter** implements the Target interface and composes an Adaptee object
 * **Class Adapter** implements the Target interface and extends the Adaptee class
-
+* **Class Adapter** You need multiple inheritance to implement class adapters, which is not possible in Java.
 
 ## Collaborations
 
