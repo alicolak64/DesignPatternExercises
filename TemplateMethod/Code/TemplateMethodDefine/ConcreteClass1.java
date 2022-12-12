@@ -1,5 +1,3 @@
-package DesignPatterns.TemplateMehodPattern.Code.TemplateMethodDefine;
-
 public class ConcreteClass1 extends AbstractClass {
 
     @Override
