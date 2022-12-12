@@ -1,5 +1,3 @@
-package DesignPatterns.TemplateMehodPattern.Code.TemplateMethodDefineWithHook;
-
 public class Client {
 
     public static void main(String[] args) {

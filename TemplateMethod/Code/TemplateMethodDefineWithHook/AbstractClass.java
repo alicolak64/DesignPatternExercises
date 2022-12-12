@@ -1,5 +1,3 @@
-package DesignPatterns.TemplateMehodPattern.Code.TemplateMethodDefineWithHook;
-
 public abstract class AbstractClass {
 
     final void templateMethod() {
