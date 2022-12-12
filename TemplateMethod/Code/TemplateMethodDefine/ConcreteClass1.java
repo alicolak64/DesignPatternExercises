@@ -1,0 +1,15 @@
+package DesignPatterns.TemplateMehodPattern.Code.TemplateMethodDefine;
+
+public class ConcreteClass1 extends AbstractClass {
+
+    @Override
+    void primitiveOperation1() {
+        System.out.println("Class1 primitiveOperation1");
+    }
+
+    @Override
+    void primitiveOperation2() {
+        System.out.println("Class1 primitiveOperation2");
+    }
+
+}
