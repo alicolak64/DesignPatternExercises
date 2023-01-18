@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Behaviours/Delivery",
+        "Behaviours/Payment",
+        "Condiments",
+        "Goods/Beverages",
+        "Goods/Foods",
+        "Goods",
+        ""
+    ]
+}
