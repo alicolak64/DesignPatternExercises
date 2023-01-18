@@ -15,3 +15,4 @@
 8. Facade Design Pattern
 9. Template Method Design Pattern
 10. Iterator Design Pattern
+11. Composite Design Pattern
