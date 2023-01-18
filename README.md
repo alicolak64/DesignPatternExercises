@@ -16,3 +16,4 @@
 9. Template Method Design Pattern
 10. Iterator Design Pattern
 11. Composite Design Pattern
+12. State Design Pattern
