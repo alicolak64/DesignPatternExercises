@@ -2,7 +2,7 @@
 
 ## Patterns
 
-1. Strategy Design Pattern
+1. [Strategy Design Pattern](Strategy/Readme.md)
 2. Observer Design Pattern
 3. Decarator Design Pattern
 4. Factory Desing Patterns
