@@ -21,3 +21,4 @@
 ## Projects
 
 1. [Community Project](CommunityProject)
+2. [Restaurant Project](RestaurantProject)
