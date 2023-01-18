@@ -17,3 +17,7 @@
 10. [Iterator Pattern](Iterator)
 11. [Composite Pattern](Composite)
 12. [State Pattern](State)
+
+## Projects
+
+1. [Community Project](CommunityProject)
