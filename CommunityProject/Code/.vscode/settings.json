@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Notifications/BaseNotifications",
+        "Notifications/DecoratorNotifications",
+        "Notifications",
+        ""
+    ]
+}
